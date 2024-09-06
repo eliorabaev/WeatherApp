@@ -29,7 +29,7 @@ A simple weather application that fetches and displays weather information based
 
 4. Start the server:
     ```bash
-    npm start
+    node index.js
     ```
 
 ## Usage
