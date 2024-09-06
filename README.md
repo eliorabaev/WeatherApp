@@ -22,7 +22,7 @@ A simple weather application that fetches and displays weather information based
     npm install
     ```
 
-3. Create a `.env` file in the root directory and add your Weather API key:
+3. Create a `.env` file in the root directory and add your Weather API key (You can get yours from here: <https://www.weatherapi.com/>):
     ```env
     API_KEY=your_api_key_here
     ```
