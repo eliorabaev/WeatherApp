@@ -43,7 +43,7 @@ A simple weather application that fetches and displays weather information based
 
 ### Server-Side Code
 
-- **`app.js`**: The main server file that sets up the Express server and routes.
+- **`index.js`**: The main server file that sets up the Express server and routes.
 
 ### Client-Side Code
 
