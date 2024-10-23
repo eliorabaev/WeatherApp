@@ -2,6 +2,5 @@
     "rewrites": [
       { "source": "/(.*)", "destination": "/" }
     ],
-    "buildCommand": "npm install",
-    "startCommand": "node index.js"
+    "buildCommand": "npm install"
 }
