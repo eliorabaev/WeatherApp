@@ -10,6 +10,7 @@ const port = 3000;
 const apiKey = process.env.API_KEY;
 const apiUrl = "http://api.weatherapi.com/v1/current.json?";
 var flag = false;
+
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -80,6 +81,4 @@ app.get("/get-weather", async (req, res) => {
     }
 });
 
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
-});
+module.exports = app;
